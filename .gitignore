@@ -1,0 +1,21 @@
+# Environment & Secrets
+.env
+*.env.local
+
+# Python Cache & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# OS Specific
+.DS_Store
+Thumbs.db
+
+# Logs & History (Abaikan log individual JSON, pertahankan folder logs/ dan ACTIVITY_LOG.md)
+logs/share_*.json
+logs/*.log
+!logs/.gitkeep
+!logs/ACTIVITY_LOG.md

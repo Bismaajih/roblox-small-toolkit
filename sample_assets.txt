@@ -1,0 +1,17 @@
+-- CONTOH FILE DAFTAR ASET (SAMPLE ASSETS)
+-- Tool ini otomatis mengekstrak ID angka dari berbagai format (Lua table, teks biasa, link URL, dll).
+-- Komentar dengan awalan '--' atau '#' akan diabaikan secara otomatis.
+
+-- 1. Format Tabel ModuleScript Lua (Format CENZ / Standar Roblox)
+return {
+    { SongName = "Contoh Lagu 1", SoundId = "rbxassetid://140529015040235", PlaybackSpeed = 0.4348 },
+    { SongName = "Contoh Lagu 2", SoundId = "rbxassetid://92726763803666", PlaybackSpeed = 0.4348 },
+    { SongName = "Contoh Lagu 3", SoundId = "rbxassetid://91076305435931", PlaybackSpeed = 0.4348 },
+}
+
+-- 2. Format URL Roblox
+-- https://www.roblox.com/library/72618215131641/Audio-Sample
+
+-- 3. Format ID Angka Biasa
+-- 85894518440724
+-- 92222295445536
